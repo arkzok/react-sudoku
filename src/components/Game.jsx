@@ -16,7 +16,7 @@ const Game = props => {
 
     return (
         <div className="container d-flex">
-            <h1>Level {props.level}</h1>
+            <h1>Level {props.level + 1}</h1>
             <table className="sudoku">
                 <tbody>
                     {
