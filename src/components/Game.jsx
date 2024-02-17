@@ -11,7 +11,9 @@ const Game = props => {
 
         props.nextLevel()
 
-        nav('/victory')
+        props.level < 2
+            ? nav('/nextlevel')
+            : nav('/victory')
     }, [props, nav])
 
     return (

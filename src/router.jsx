@@ -1,15 +1,17 @@
 import { Route, Routes } from "react-router-dom"
-import Menu from "./components/Menu"
-import Victory from "./components/Victory"
+import Play from "./components/Play"
+import NextLevel from "./components/NextLevel"
 import Defeat from "./components/Defeat"
 import GameHOC from "./GameHOC"
+import Victory from "./components/Victory"
 
 const BaseRouter = () =>
     <Routes>
-        <Route path="/" element={<Menu />} />
+        <Route path="/" element={<Play />} />
         <Route path="/game" element={<GameHOC />} />
-        <Route path="/victory" element={<Victory />} />
+        <Route path="/nextlevel" element={<NextLevel />} />
         <Route path="/defeat" element={<Defeat />} />
+        <Route path="/victory" element={<Victory />} />
     </Routes>
 
 export default BaseRouter

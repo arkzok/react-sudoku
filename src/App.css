@@ -50,6 +50,10 @@ a {
   color: red;
 }
 
+.victory {
+  font-size: 100px;
+}
+
 .btn {
   padding: 17px 25px;
   background: rgb(226, 162, 12);
