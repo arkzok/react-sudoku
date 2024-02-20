@@ -35,23 +35,28 @@ a {
 
 .sudoku {
   border-collapse: collapse;
-  border: 2px solid black;
+  border: 3px solid rgb(148, 148, 145);
 }
 
 .sudoku td:nth-of-type(3) {
-  border-right: 2px solid black;
+  border-right: 3px solid rgb(148, 148, 145);
 }
 
 .sudoku tr:nth-of-type(even) {
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid rgb(148, 148, 145);
 }
 
 .mistakes {
   color: red;
+  font-weight: 600;
 }
 
 .victory {
   font-size: 100px;
+}
+
+.value {
+  border: 2px solid rgb(148, 148, 145);
 }
 
 .btn {

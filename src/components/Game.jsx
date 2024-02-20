@@ -43,10 +43,10 @@ const Game = props => {
                     }
                 </tbody>
             </table>
-            <ul className="d-flex">
+            <ul className="d-flex value">
                 {
                     props.values.map(value =>
-                        <li key={value} className="cell" onClick={() => props.changeValue(value)}>
+                        <li key={value} className="cell value" onClick={() => props.changeValue(value)}>
                             {value}
                         </li>
                     )
